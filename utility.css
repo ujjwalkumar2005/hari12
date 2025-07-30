@@ -1,0 +1,75 @@
+.border{
+    border: 2px solid rgb(206, 255, 29);
+    margin: 3px;
+}
+
+.flex{
+    display:flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: rgb(244, 244, 244);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Custom black scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;  /* Dark grey background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;      /* Black scrollbar thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;     /* Slightly lighter on hover */
+}
+
+
+
+.songlist {
+    max-height: 400px;
+    overflow-y: auto;
+    /* Optional: add padding or margin if needed */
+    
+}
+.songlist > * {
+    /* Ensure child items don't overflow horizontally */
+    overflow-x: hidden;
+}
+
+
